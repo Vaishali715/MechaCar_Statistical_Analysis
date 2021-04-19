@@ -1,6 +1,15 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression to Predict MPG
+
+Using the script to calculate the linear regression we get the coefficients as shown:
+
+![Image](https://github.com/Vaishali715/MechaCar_Statistical_Analysis/blob/main/Reference%20Images/linear_reg.png)
+
+Using the script to calculate the summary of linear regression model we can determine the p-value and the r-squared value as shown:
+
+![Image](https://github.com/Vaishali715/MechaCar_Statistical_Analysis/blob/main/Reference%20Images/summary_LR.png)
+
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
 Vehicle weight, spoiler_angle & AWD provided a non-random amount of variance. The two variables that had the most amount of random variance are ground_clearance and vehicle_length.
@@ -15,9 +24,9 @@ Our R-squared value is 71%, which means roughly ~71% of the time the model will 
 
 ## Summary Statistics on Suspension Coils
 
-![total_Summary]()
+![total_Summary](https://github.com/Vaishali715/MechaCar_Statistical_Analysis/blob/main/Reference%20Images/total_summary.png)
 
-![lot_summary]()
+![lot_summary](https://github.com/Vaishali715/MechaCar_Statistical_Analysis/blob/main/Reference%20Images/lot_summary.png)
 
 * The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
@@ -26,16 +35,16 @@ Lot 1 and Lot 2 are both within design specifications and have nearly the same e
 ## T-Tests on Suspension Coils
 Lot 1 and Lot 3 the PSI values are not different from the population mean. However lot 2 the p-value is .347 which means there is evidence that the suspension coil is different from the population mean. All t-tests can be seen below:
 ### Across all lots:
-![mean]()
+![mean](https://github.com/Vaishali715/MechaCar_Statistical_Analysis/blob/main/Reference%20Images/t_test.png)
 
 ### Lot 1
-![lot1]()
+![lot1](https://github.com/Vaishali715/MechaCar_Statistical_Analysis/blob/main/Reference%20Images/t_test_lot1.png)
 
 ### Lot 2
-![lot2]()
+![lot2](https://github.com/Vaishali715/MechaCar_Statistical_Analysis/blob/main/Reference%20Images/t_test_lot2.png)
 
 ### Lot 3
-![lot3]()
+![lot3](https://github.com/Vaishali715/MechaCar_Statistical_Analysis/blob/main/Reference%20Images/t_test_lot3.png)
 
 ## Study Design: MechaCar vs Competition
 * The features that people are interested in, when buying a car are: how much horsepower the car has, the highway fuel efficiency(miles per gallon) and the cost, these are the three factors that go into consumer decision making.
